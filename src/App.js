@@ -12,13 +12,12 @@ export default function App() {
         </div>
       </div>
       <p class="footer">
-        This project is coded by
+        This project is coded by{" "}
         <a
           href="https://linkedin.com/in/sabre-katana"
           target="_blank"
           rel="noreferrer"
         >
-          {" "}
           Sabre Katana
         </a>{" "}
         and is open-sourced on
