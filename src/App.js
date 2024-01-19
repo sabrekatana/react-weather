@@ -31,9 +31,9 @@ export default function App() {
           Github
         </a>{" "}
         and hosted by{" "}
-        <a href="">Netlify</a>.
+        <a href="https://github.com/sabrekatana/vanilla-weather-app">Netlify</a>
+        .
       </p>
-    
     </div>
   );
 }
