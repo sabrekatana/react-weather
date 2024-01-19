@@ -23,7 +23,7 @@ export default function App() {
         </a>{" "}
         and is open-sourced on
         <a
-          href="https://github.com/sabrekatana/vanilla-weather-app"
+          href="https://github.com/sabrekatana/react-weather"
           target="_blank"
           rel="noreferrer"
         >
@@ -31,7 +31,7 @@ export default function App() {
           Github
         </a>{" "}
         and hosted by{" "}
-        <a href="https://github.com/sabrekatana/vanilla-weather-app">Netlify</a>
+        <a href="https://master--splendorous-cat-8bf943.netlify.app/">Netlify</a>
         .
       </p>
     </div>
