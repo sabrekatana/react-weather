@@ -19,7 +19,7 @@ export default function App() {
           rel="noreferrer"
         >
           {" "}
-        Sabre Katana
+          Sabre Katana
         </a>{" "}
         and is open-sourced on
         <a
@@ -31,7 +31,9 @@ export default function App() {
           Github
         </a>{" "}
         and hosted by{" "}
-        <a href="https://master--splendorous-cat-8bf943.netlify.app/">Netlify</a>
+        <a href="https://master--splendorous-cat-8bf943.netlify.app/">
+          Netlify
+        </a>
         .
       </p>
     </div>
