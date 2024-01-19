@@ -19,7 +19,7 @@ export default function App() {
           rel="noreferrer"
         >
           {" "}
-          Sabre Katana
+        Sabre Katana
         </a>{" "}
         and is open-sourced on
         <a
