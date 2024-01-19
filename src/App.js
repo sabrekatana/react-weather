@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./styles.css";
+import Weather from "./Weather";
+import "bootstrap/dist/css/bootstrap.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="container">
+        <div className="main-container">
+          <Weather defaultCity="New York" />{" "}
+        </div>
+      </div>
+      <p class="footer">
+        This project is coded by
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://linkedin.com/in/sabre-katana"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
-        </a>
-      </header>
+          {" "}
+          Sabre Katana
+        </a>{" "}
+        and is open-sourced on
+        <a
+          href="https://github.com/sabrekatana/vanilla-weather-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+          Github
+        </a>{" "}
+        and hosted by{" "}
+        <a href="">Netlify</a>.
+      </p>
+    
     </div>
   );
 }
-
-export default App;
